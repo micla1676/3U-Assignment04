@@ -89,6 +89,5 @@ public class A4Q8 {
                 break;
             }
         }
-
     }
 }
