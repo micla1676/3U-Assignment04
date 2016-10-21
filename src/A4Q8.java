@@ -54,13 +54,13 @@ public class A4Q8 {
                         + "now on square 19");
             }
             //(snake)if user lands on square 90, send them to square 48
-            if (dice == 90) {
+            else if (dice == 90) {
                 dice = 48;
                 System.out.println("Sorry, you landed on a snake, and are"
                         + "now on square 45");
             }
             //(snake) if user lands on square 99, send them to square 77
-            if (dice == 99) {
+            else if (dice == 99) {
                 dice = 77;
                 System.out.println("Sorry, you landed on a snake, and are"
                         + " now on square 77");
@@ -72,19 +72,19 @@ public class A4Q8 {
                         + " and are now on square 34!");
             }
             //(ladder) if user lands on square 40 send them to square 64.
-            if (dice == 40) {
+            else if (dice == 40) {
                 dice = 64;
                 System.out.println("Congratulations, you landed on a ladder"
                         + " and are now on square 64!");
             }
             //(ladder) if user lands on square 67 send them to square 86.
-            if (dice == 67) {
+            else if (dice == 67) {
                 dice = 86;
                 System.out.println("Congratulations, you landed on a ladder"
                         + " and are now on square 86!");
             }
             //tell user they win and break loop
-            if (dice == 100) {
+            else if (dice == 100) {
                 System.out.println("You Win!");
                 break;
             }
