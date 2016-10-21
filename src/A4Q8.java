@@ -84,7 +84,7 @@ public class A4Q8 {
                         + " and are now on square 86!");
             }
             //tell user they win and break loop
-            else if (dice == 100) {
+            if (dice == 100) {
                 System.out.println("You Win!");
                 break;
             }
